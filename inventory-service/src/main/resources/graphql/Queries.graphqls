@@ -1,0 +1,5 @@
+type Query{
+    getProduitById(id: Float) : ProduitDto
+    getProduitByName(name: String): ProduitDto
+    getAllProduits: [ProduitDto]
+}

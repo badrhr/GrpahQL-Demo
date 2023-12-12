@@ -1,0 +1,4 @@
+input BookDtoRequest{
+    title: String
+    author: String
+}

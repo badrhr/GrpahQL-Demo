@@ -1,0 +1,4 @@
+input CreatorRequest{
+    name : String,
+    email : String
+}

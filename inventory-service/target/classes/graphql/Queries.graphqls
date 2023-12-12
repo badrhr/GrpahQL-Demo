@@ -1,0 +1,6 @@
+type Query {
+    videoList: [Video]
+    creatorById(id :Float) : Creator
+    getAllBooks: [BookDto]
+    getAllPersons : [PersonDto]
+}

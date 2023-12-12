@@ -1,0 +1,4 @@
+type BookDto{
+    title: String
+    author: String
+}

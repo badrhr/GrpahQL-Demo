@@ -1,0 +1,5 @@
+type Mutation{
+    saveVideo(video: VideoRequest): Video
+    saveCreator(creator: CreatorRequest): Creator
+    saveBook(bookRequest: BookDtoRequest): BookDto
+}
